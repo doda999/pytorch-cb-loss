@@ -31,7 +31,6 @@ class FocalLoss(nn.Module):
         super(FocalLoss, self).__init__()
         self.gamma = gamma
         self.weight = weight
-        self.logsigmoid = nn.LogSigmoid()
         
     def forward(self, out, label):
         weight = None
