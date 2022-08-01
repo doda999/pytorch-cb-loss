@@ -1,4 +1,5 @@
 # pytorch-cb-loss
+This repository is reproduced implementation of "[Class-Balanced Loss Based on Effective Number of Samples](https://arxiv.org/abs/1901.05555)" (Cui+, CVPR2019). 
 
 ## Installation
 python 3.9.12  
